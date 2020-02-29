@@ -174,11 +174,9 @@ public abstract class BatchTiledMapRenderer implements TiledMapRenderer, Disposa
 
 	@Override
 	public void renderObjects (MapLayer layer) {
-//        batch.begin();
 		for (MapObject object : layer.getObjects()) {
 			renderObject(object);
 		}
-//        batch.begin();
 	}
 
 	@Override
